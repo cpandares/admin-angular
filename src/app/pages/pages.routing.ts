@@ -1,3 +1,5 @@
+import { RxjsComponent } from './rxjs/rxjs.component';
+import { PromisesComponent } from './promises/promises.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { Routes, RouterModule }from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -19,7 +21,8 @@ const routes: Routes = [
       {  path: 'progress', component: ProgressComponent  },
       {  path:'grafica1', component: Grafica1Component  },
       {  path:'account-settings', component: AccountSettingsComponent  },
-
+      {  path:'promises', component: PromisesComponent  },
+      {  path:'rxjs', component: RxjsComponent  },
     ]
   },
 ]
